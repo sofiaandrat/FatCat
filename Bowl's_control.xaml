@@ -1,0 +1,49 @@
+﻿<Window x:Class="FatCat.Bowl_s_control"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FatCat"
+        mc:Ignorable="d"
+        Title="Bowl_s_control" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="348.4" Margin="104.2,38.7,0,0" Stroke="Black" VerticalAlignment="Top" Width="584.8"/>
+        <Button Content="Bowl #1" HorizontalAlignment="Left" Margin="104.2,38.7,0,0" VerticalAlignment="Top" Width="228" Height="67.96" BorderBrush="Black" Foreground="Black" Background="#FFA2DDB0" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Button Content="Bowl #2" HorizontalAlignment="Left" Margin="104.2,106.66,0,0" VerticalAlignment="Top" Width="228" Height="67.96" BorderBrush="Black" Foreground="Black" Background="#FFA2DDB0" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Button Content="Bowl #3" HorizontalAlignment="Left" Margin="104.2,174.62,0,0" VerticalAlignment="Top" Width="228" Height="67.96" BorderBrush="Black" Foreground="Black" Background="#FFA2DDB0" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Button Content="Add new bowl" HorizontalAlignment="Left" Margin="104.2,242.58,0,0" VerticalAlignment="Top" Width="228" Height="67.96" BorderBrush="Black" Foreground="Black" Background="#FFA2DDB0" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="310.8" Margin="411.4,53.1,0,0" Stroke="Black" VerticalAlignment="Top" Width="249.6" Fill="#FFEDFFEC"/>
+        <GroupBox Header="Tags" HorizontalAlignment="Left" Height="164.8" Margin="429.4,55.067,0,0" VerticalAlignment="Top" Width="206.8" FontFamily="Yu Gothic UI" FontSize="20">
+            <Button Content="Add tag" HorizontalAlignment="Left" Height="29.6" Margin="10,102.533,0,-0.933" VerticalAlignment="Top" Width="177.467" Cursor="Hand">
+                <Button.Background>
+                    <ImageBrush ImageSource="add_tag_button.jpg"/>
+                </Button.Background>
+            </Button>
+        </GroupBox>
+        <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="429.4,242.58,0,0" VerticalAlignment="Top" Width="206.8" Content="Logs of feeder" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Button HorizontalAlignment="Left" Margin="340.4,64.513,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="340.4,132.913,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="340.4,199.867,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Mail" HorizontalAlignment="Left" Margin="10,381.7,0,0" VerticalAlignment="Top" Width="73.8" Height="28.7" FontFamily="Yu Gothic UI" FontSize="20" Background="#FFB93737"/>
+        <ListView HorizontalAlignment="Left" Height="100" Margin="23.2,276.7,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>
