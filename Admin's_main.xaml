@@ -8,8 +8,13 @@
         Title="Admin_s_main" Height="450" Width="800">
     <Grid>
         <ListBox HorizontalAlignment="Left" Height="252" Margin="28.4,46.4,0,0" VerticalAlignment="Top" Width="231.2" IsSynchronizedWithCurrentItem="False"/>
-        <ListBox HorizontalAlignment="Left" Height="69.6" Margin="28.4,320,0,0" VerticalAlignment="Top" Width="231.2" IsSynchronizedWithCurrentItem="False"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="28.4,28.45,0,0" VerticalAlignment="Top" Width="231.2"/>
+        <ListBox HorizontalAlignment="Left" Height="69.6" Margin="28.4,332,0,0" VerticalAlignment="Top" Width="231.2" IsSynchronizedWithCurrentItem="False"/>
+        <Label Content="Users" HorizontalAlignment="Left" Margin="28.4,16.45,0,0" VerticalAlignment="Top" Width="231.2" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Label Content="Queue of registration" HorizontalAlignment="Left" Margin="28.4,295.4,0,0" VerticalAlignment="Top" Width="231.2" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <ListBox HorizontalAlignment="Left" Height="355.2" Margin="284.4,46.4,0,0" VerticalAlignment="Top" Width="231.2" IsSynchronizedWithCurrentItem="False"/>
+        <ListBox HorizontalAlignment="Left" Height="355.2" Margin="536.4,46.4,0,0" VerticalAlignment="Top" Width="231.2" IsSynchronizedWithCurrentItem="False"/>
+        <Label Content="Feeders" HorizontalAlignment="Left" Margin="284.4,16.45,0,0" VerticalAlignment="Top" Width="231.2" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Label Content="List of logs" HorizontalAlignment="Left" Margin="536.4,16.45,0,0" VerticalAlignment="Top" Width="231.2" FontFamily="Yu Gothic UI" FontSize="20"/>
 
     </Grid>
 </Window>
