@@ -21,21 +21,6 @@
             </Button>
         </GroupBox>
         <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="429.4,242.58,0,0" VerticalAlignment="Top" Width="206.8" Content="Logs of feeder" FontFamily="Yu Gothic UI" FontSize="20"/>
-        <Button HorizontalAlignment="Left" Margin="340.4,64.513,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\331dd34defe93c213f46089b199e783a.png"/>
-            </Button.Background>
-        </Button>
-        <Button Content="" HorizontalAlignment="Left" Margin="340.4,132.913,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\331dd34defe93c213f46089b199e783a.png"/>
-            </Button.Background>
-        </Button>
-        <Button Content="" HorizontalAlignment="Left" Margin="340.4,199.867,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\331dd34defe93c213f46089b199e783a.png"/>
-            </Button.Background>
-        </Button>
         <Button Content="Mail" HorizontalAlignment="Left" Margin="10,381.7,0,0" VerticalAlignment="Top" Width="73.8" Height="28.7" FontFamily="Yu Gothic UI" FontSize="20" Background="#FFB93737"/>
         <ListView HorizontalAlignment="Left" Height="100" Margin="23.2,276.7,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden">
             <ListView.View>
@@ -44,6 +29,34 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <MenuItem Header="" HorizontalAlignment="Left" Height="20" Margin="340.4,63.76,0,0" VerticalAlignment="Top" Width="20">
+            <MenuItem.Background>
+                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+            </MenuItem.Background>
+            <Button Content="Schedule"/>
+            <Button Content="Manual feeding" Click="Button_Click"/>
+            <Button Content="Create a cat's diet" Click="Button_Click_1"/>
+            <Button Content="Check a state"/>
+        </MenuItem>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="690.5,5.5,0,0" VerticalAlignment="Top" Width="94.6" Height="28.7" Background="#FFC25454" BorderBrush="Black" FontSize="20" FontFamily="Yu Gothic UI" Click="Button_Click" />
+        <MenuItem Header="" HorizontalAlignment="Left" Height="20" Margin="340.4,132.16,0,0" VerticalAlignment="Top" Width="20">
+            <MenuItem.Background>
+                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+            </MenuItem.Background>
+            <Button Content="Schedule"/>
+            <Button Content="Manual feeding"/>
+            <Button Content="Create a cat's diet"/>
+            <Button Content="Check a state"/>
+        </MenuItem>
+        <MenuItem Header="" HorizontalAlignment="Left" Height="20" Margin="340.4,199.867,0,0" VerticalAlignment="Top" Width="20">
+            <MenuItem.Background>
+                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+            </MenuItem.Background>
+            <Button Content="Schedule"/>
+            <Button Content="Manual feeding"/>
+            <Button Content="Create a cat's diet"/>
+            <Button Content="Check a state"/>
+        </MenuItem>
 
     </Grid>
 </Window>

@@ -23,5 +23,17 @@ namespace FatCat
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Manual_feeding manual_Feeding = new Manual_feeding;
+            manual_Feeding.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Create_a_cat_s_diet create_A_Cat_S_Diet = new Create_a_cat_s_diet;
+            create_A_Cat_S_Diet.Show();
+        }
     }
 }

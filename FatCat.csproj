@@ -64,6 +64,9 @@
     <Compile Include="Bowl%27s_control.xaml.cs">
       <DependentUpon>Bowl%27s_control.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Create_a_cat%27s diet.xaml.cs">
+      <DependentUpon>Create_a_cat%27s diet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Manual_feeding.xaml.cs">
       <DependentUpon>Manual_feeding.xaml</DependentUpon>
     </Compile>
@@ -79,6 +82,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Bowl%27s_control.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Create_a_cat%27s diet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

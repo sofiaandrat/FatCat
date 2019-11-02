@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace FatCat
 {
     /// <summary>
-    /// Логика взаимодействия для Manual_feeding.xaml
+    /// Логика взаимодействия для Create_a_cat_s_diet.xaml
     /// </summary>
-    public partial class Manual_feeding : Window
+    public partial class Create_a_cat_s_diet : Window
     {
-        public Manual_feeding()
+        public Create_a_cat_s_diet()
         {
             InitializeComponent();
         }
