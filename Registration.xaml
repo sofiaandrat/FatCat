@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FatCat"
         mc:Ignorable="d"
-        Title="Registration" Height="450" Width="800">
+        Title="Registration" Height="375.6" Width="304.4">
     <Grid>
-        <Rectangle Fill="#FFE0E0E0" HorizontalAlignment="Left" Height="345.6" Margin="247.6,38.7,0,0" Stroke="Black" VerticalAlignment="Top" Width="297.6"/>
-        <Button Content="Register me" HorizontalAlignment="Left" Margin="310,321.9,0,0" VerticalAlignment="Top" Width="171" Height="48.76" Background="#FFC25454" BorderBrush="Black" FontSize="25" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
-        <Label Content="e-mail:" HorizontalAlignment="Left" Margin="282.4,44.4,0,0" VerticalAlignment="Top" Width="64.643" FontFamily="Yu Gothic UI" FontSize="20"/>
-        <Label HorizontalAlignment="Left" Margin="282.4,115.5,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Content="Password:"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="282.4,146.6,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Width="199.8"/>
-        <TextBox HorizontalAlignment="Left" Height="32.6" Margin="282.4,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199.8" FontFamily="Yu Gothic UI" FontSize="20"/>
-        <Label Content="Serial number:" HorizontalAlignment="Left" Margin="281.2,246,0,0" VerticalAlignment="Top" Width="163.043" FontFamily="Yu Gothic UI" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="32.6" Margin="281.2,280.1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199.8" FontFamily="Yu Gothic UI" FontSize="20"/>
-        <Label HorizontalAlignment="Left" Margin="281.2,181.2,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Content="Repeat password:"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="281.2,211.4,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Width="199.8"/>
+        <Rectangle Fill="#FFE0E0E0" HorizontalAlignment="Left" Height="345.6" Margin="0.1,-0.3,0,0" Stroke="Black" VerticalAlignment="Top" Width="297.6"/>
+        <Button Content="Register me" HorizontalAlignment="Left" Margin="62.5,282.9,0,0" VerticalAlignment="Top" Width="171" Height="48.76" Background="#FFC25454" BorderBrush="Black" FontSize="25" FontFamily="Yu Gothic UI" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="e-mail:" HorizontalAlignment="Left" Margin="34.9,5.4,0,0" VerticalAlignment="Top" Width="64.643" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Label HorizontalAlignment="Left" Margin="34.9,76.5,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Content="Password:"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="34.9,107.6,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Width="199.8"/>
+        <TextBox HorizontalAlignment="Left" Height="32.6" Margin="34.9,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199.8" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Label Content="Serial number:" HorizontalAlignment="Left" Margin="33.7,207,0,0" VerticalAlignment="Top" Width="163.043" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="32.6" Margin="33.7,241.1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199.8" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Label HorizontalAlignment="Left" Margin="33.7,142.2,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Content="Repeat password:"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="33.7,172.4,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20" Width="199.8"/>
 
     </Grid>
 </Window>

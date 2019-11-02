@@ -2,7 +2,6 @@ D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat.cspr
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Bowl's_control.g.cs
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\MainWindow.g.cs
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Registration.g.cs
-D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Window1.g.cs
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\App.g.cs
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat_MarkupCompile.cache
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat_MarkupCompile.lref
@@ -12,9 +11,16 @@ D:\лабы универ\лабы шарпы\FatCat\FatCat\bin\Debug\FatCat.pdb
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Bowl's_control.baml
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\MainWindow.baml
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Registration.baml
-D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Window1.baml
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat.g.resources
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat.Properties.Resources.resources
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat.csproj.GenerateResource.cache
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat.exe
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\FatCat.pdb
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Simple Styles.baml
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Add_new_feeder.g.cs
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Admin's_main.g.cs
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Manual_feeding.g.cs
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\App.baml
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Add_new_feeder.baml
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Admin's_main.baml
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Manual_feeding.baml

@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FatCat"
         mc:Ignorable="d"
-        Title="Manual_feeding" Height="450" Width="800">
+        Title="Manual_feeding" Height="132" Width="350">
     <Grid>
-        
+        <Rectangle Fill="#FFE0E0E0" HorizontalAlignment="Left" Height="102.4" Stroke="Black" VerticalAlignment="Top" Width="347.2"/>
+        <Label Content="How many food you want to give?" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="105.6,51.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Yu Gothic UI" FontSize="20"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="235.3,51.6,0,0" VerticalAlignment="Top" Width="27"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="280.9,51.6,0,0" VerticalAlignment="Top" Width="27">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
     </Grid>
 </Window>

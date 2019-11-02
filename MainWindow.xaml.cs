@@ -24,5 +24,28 @@ namespace FatCat
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Registration form = new Registration();
+            form.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TextBox textBox = new TextBox();
+            if (textBox.Text == "admin")
+            {
+                Visibility = 0;
+                Admin_s_main admin_S_Main = new Admin_s_main();
+                admin_S_Main.Show();
+            } else
+            {
+                Visibility = 0;
+                Bowl_s_control bowl_S_Control = new Bowl_s_control();
+                bowl_S_Control.Show();
+            }
+
+        }
     }
 }

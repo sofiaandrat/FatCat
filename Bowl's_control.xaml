@@ -16,24 +16,24 @@
         <GroupBox Header="Tags" HorizontalAlignment="Left" Height="164.8" Margin="429.4,55.067,0,0" VerticalAlignment="Top" Width="206.8" FontFamily="Yu Gothic UI" FontSize="20">
             <Button Content="Add tag" HorizontalAlignment="Left" Height="29.6" Margin="10,102.533,0,-0.933" VerticalAlignment="Top" Width="177.467" Cursor="Hand">
                 <Button.Background>
-                    <ImageBrush ImageSource="add_tag_button.jpg"/>
+                    <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\add_tag_button.jpg"/>
                 </Button.Background>
             </Button>
         </GroupBox>
         <ScrollViewer HorizontalAlignment="Left" Height="100" Margin="429.4,242.58,0,0" VerticalAlignment="Top" Width="206.8" Content="Logs of feeder" FontFamily="Yu Gothic UI" FontSize="20"/>
         <Button HorizontalAlignment="Left" Margin="340.4,64.513,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
             <Button.Background>
-                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+                <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\331dd34defe93c213f46089b199e783a.png"/>
             </Button.Background>
         </Button>
         <Button Content="" HorizontalAlignment="Left" Margin="340.4,132.913,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
             <Button.Background>
-                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+                <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\331dd34defe93c213f46089b199e783a.png"/>
             </Button.Background>
         </Button>
         <Button Content="" HorizontalAlignment="Left" Margin="340.4,199.867,0,0" VerticalAlignment="Top" Width="20" Height="20" BorderThickness="0">
             <Button.Background>
-                <ImageBrush ImageSource="331dd34defe93c213f46089b199e783a.png"/>
+                <ImageBrush ImageSource="D:\лабы универ\лабы шарпы\FatCat\331dd34defe93c213f46089b199e783a.png"/>
             </Button.Background>
         </Button>
         <Button Content="Mail" HorizontalAlignment="Left" Margin="10,381.7,0,0" VerticalAlignment="Top" Width="73.8" Height="28.7" FontFamily="Yu Gothic UI" FontSize="20" Background="#FFB93737"/>

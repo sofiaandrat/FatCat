@@ -55,27 +55,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Add_new_feeder.xaml.cs">
+      <DependentUpon>Add_new_feeder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Admin%27s_main.xaml.cs">
       <DependentUpon>Admin%27s_main.xaml</DependentUpon>
     </Compile>
     <Compile Include="Bowl%27s_control.xaml.cs">
       <DependentUpon>Bowl%27s_control.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Manual feeding.xaml.cs">
-      <DependentUpon>Manual feeding.xaml</DependentUpon>
+    <Compile Include="Manual_feeding.xaml.cs">
+      <DependentUpon>Manual_feeding.xaml</DependentUpon>
     </Compile>
     <Compile Include="Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window2.xaml.cs">
-      <DependentUpon>Window2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window3.xaml.cs">
-      <DependentUpon>Window3.xaml</DependentUpon>
-    </Compile>
+    <Page Include="Add_new_feeder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Admin%27s_main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -96,7 +94,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Manual feeding.xaml">
+    <Page Include="Manual_feeding.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,18 +105,6 @@
     <Page Include="Simple Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Window1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
