@@ -33,13 +33,20 @@ namespace FatCat
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            TextBox textBox = new TextBox();
-            if (textBox.Text == "admin")
+            
+            if (User_name.Text == "admin")
             {
                 Visibility = 0;
                 Admin_s_main admin_S_Main = new Admin_s_main();
                 admin_S_Main.Show();
-            } else
+            }
+            if (User_name.Text == "tester")
+            {
+                Visibility = 0;
+                Bowl_s_control bowl_S_Control = new Bowl_s_control();
+                bowl_S_Control.Show();
+            }
+            if (User_name.Text != "admin" && User_name.Text != "tester")
             {
                 Visibility = 0;
                 Bowl_s_control bowl_S_Control = new Bowl_s_control();

@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace FatCat
 {
     /// <summary>
-    /// Логика взаимодействия для Registration.xaml
+    /// Логика взаимодействия для Test.xaml
     /// </summary>
-    public partial class Registration : Window
+    public partial class Test : Window
     {
-        public Registration()
+        public Test()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }
