@@ -43,8 +43,6 @@ namespace FatCat
             if (User_name.Text == "tester")
             {
                 Visibility = 0;
-                Bowl_s_control bowl_S_Control = new Bowl_s_control();
-                bowl_S_Control.Show();
             }
             if (User_name.Text != "admin" && User_name.Text != "tester")
             {
