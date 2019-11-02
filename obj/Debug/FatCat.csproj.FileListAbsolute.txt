@@ -24,3 +24,5 @@ D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\App.baml
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Add_new_feeder.baml
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Admin's_main.baml
 D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Manual_feeding.baml
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Create_a_cat's diet.g.cs
+D:\лабы универ\лабы шарпы\FatCat\FatCat\obj\Debug\Create_a_cat's diet.baml
